@@ -1,0 +1,74 @@
+{
+  "Chill": [
+    {
+      "id": 1,
+      "title": "Relaxing Breeze",
+      "artist": "Ambient Sounds",
+      "coverImage": "https://via.placeholder.com/100/1a73e8/ffffff?text=Chill1",
+      "duration": "4:15",
+      "audioPreviewUrl": null
+    },
+    {
+      "id": 2,
+      "title": "Quiet Moments",
+      "artist": "Peaceful Melodies",
+      "coverImage": "https://via.placeholder.com/100/34a853/ffffff?text=Chill2",
+      "duration": "3:50",
+      "audioPreviewUrl": null
+    }
+  ],
+  "Happy": [
+    {
+      "id": 3,
+      "title": "Sunny Days",
+      "artist": "Upbeat Tunes",
+      "coverImage": "https://via.placeholder.com/100/fbbc05/ffffff?text=Happy1",
+      "duration": "2:30",
+      "audioPreviewUrl": null
+    },
+    {
+      "id": 4,
+      "title": "Joyful Rhythms",
+      "artist": "Cheerful Artists",
+      "coverImage": "https://via.placeholder.com/100/ea4335/ffffff?text=Happy2",
+      "duration": "3:05",
+      "audioPreviewUrl": null
+    }
+  ],
+  "Sad": [
+    {
+      "id": 5,
+      "title": "Rainy melancholia",
+      "artist": "Somber Sounds",
+      "coverImage": "https://via.placeholder.com/100/4285f4/ffffff?text=Sad1",
+      "duration": "4:55",
+      "audioPreviewUrl": null
+    },
+    {
+      "id": 6,
+      "title": "Blue Notes",
+      "artist": "Gloomy Musicians",
+      "coverImage": "https://via.placeholder.com/100/ 정책 / ffffff?text = Sad2",
+      "duration": "3:40",
+      "audioPreviewUrl": null
+    }
+  ],
+  "Energetic": [
+    {
+      "id": 7,
+      "title": "Power Beat",
+      "artist": "High Energy Crew",
+      "coverImage": "https://via.placeholder.com/100/7c4dff/ffffff?text=Energy1",
+      "duration": "2:10",
+      "audioPreviewUrl": null
+    },
+    {
+      "id": 8,
+      "title": "Fast Pace",
+      "artist": "Dynamic Duo",
+      "coverImage": "https://via.placeholder.com/100/00b0ff/ffffff?text=Energy2",
+      "duration": "2:25",
+      "audioPreviewUrl": null
+    }
+  ]
+} 

@@ -1,8 +1,10 @@
 import React from 'react';
 import SongCard from './SongCard';
+import { motion } from 'framer-motion';
 
 function Playlist({
-  songs
+  songs,
+  onSelectSong
 }) {
   return (
     <div className="mt-8">
@@ -11,9 +13,16 @@ function Playlist({
         songs.length > 0 ? (
           <ul className="space-y-4">
             {songs.map(song => (
-              <li key={song.id}>
+              <motion.li
+                key={song.id}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5 }}
+                onClick={() => onSelectSong(song)}
+                className="cursor-pointer"
+              >
                 <SongCard song={song} />
-              </li>
+              </motion.li>
             ))}
           </ul>
         ) : (
