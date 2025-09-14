@@ -2,73 +2,97 @@
   "Chill": [
     {
       "id": 1,
-      "title": "Relaxing Breeze",
-      "artist": "Ambient Sounds",
-      "coverImage": "https://via.placeholder.com/100/1a73e8/ffffff?text=Chill1",
+      "title": "Ocean Waves",
+      "artist": "Ambient Collective",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
       "duration": "4:15",
-      "audioPreviewUrl": null
+      "audioPreviewUrl": null,
+      "genre": "Ambient",
+      "year": "2023"
     },
     {
       "id": 2,
-      "title": "Quiet Moments",
-      "artist": "Peaceful Melodies",
-      "coverImage": "https://via.placeholder.com/100/34a853/ffffff?text=Chill2",
+      "title": "Midnight Jazz",
+      "artist": "Smooth Operators",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
       "duration": "3:50",
-      "audioPreviewUrl": null
+      "audioPreviewUrl": null,
+      "genre": "Jazz",
+      "year": "2023"
+    },
+    {
+      "id": 3,
+      "title": "Forest Whispers",
+      "artist": "Nature Sounds",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
+      "duration": "5:20",
+      "audioPreviewUrl": null,
+      "genre": "Ambient",
+      "year": "2024"
     }
   ],
   "Happy": [
     {
-      "id": 3,
-      "title": "Sunny Days",
-      "artist": "Upbeat Tunes",
-      "coverImage": "https://via.placeholder.com/100/fbbc05/ffffff?text=Happy1",
+      "id": 4,
+      "title": "Sunshine Days",
+      "artist": "The Bright Side",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
       "duration": "2:30",
-      "audioPreviewUrl": null
+      "audioPreviewUrl": null,
+      "genre": "Pop",
+      "year": "2023"
     },
     {
-      "id": 4,
-      "title": "Joyful Rhythms",
-      "artist": "Cheerful Artists",
-      "coverImage": "https://via.placeholder.com/100/ea4335/ffffff?text=Happy2",
-      "duration": "3:05",
-      "audioPreviewUrl": null
-    }
-  ],
-  "Sad": [
-    {
       "id": 5,
-      "title": "Rainy melancholia",
-      "artist": "Somber Sounds",
-      "coverImage": "https://via.placeholder.com/100/4285f4/ffffff?text=Sad1",
-      "duration": "4:55",
-      "audioPreviewUrl": null
+      "title": "Dancing in the Rain",
+      "artist": "Joyful Hearts",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
+      "duration": "3:05",
+      "audioPreviewUrl": null,
+      "genre": "Indie Pop",
+      "year": "2024"
     },
     {
       "id": 6,
-      "title": "Blue Notes",
-      "artist": "Gloomy Musicians",
-      "coverImage": "https://via.placeholder.com/100/ 정책 / ffffff?text = Sad2",
-      "duration": "3:40",
-      "audioPreviewUrl": null
+      "title": "Good Vibes Only",
+      "artist": "Positive Energy",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
+      "duration": "2:45",
+      "audioPreviewUrl": null,
+      "genre": "Electronic",
+      "year": "2023"
     }
   ],
-  "Energetic": [
+  "Melancholy": [
     {
       "id": 7,
-      "title": "Power Beat",
-      "artist": "High Energy Crew",
-      "coverImage": "https://via.placeholder.com/100/7c4dff/ffffff?text=Energy1",
-      "duration": "2:10",
-      "audioPreviewUrl": null
+      "title": "Rainy Reflections",
+      "artist": "Melancholic Souls",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
+      "duration": "4:55",
+      "audioPreviewUrl": null,
+      "genre": "Indie",
+      "year": "2023"
     },
     {
       "id": 8,
-      "title": "Fast Pace",
-      "artist": "Dynamic Duo",
-      "coverImage": "https://via.placeholder.com/100/00b0ff/ffffff?text=Energy2",
-      "duration": "2:25",
-      "audioPreviewUrl": null
+      "title": "Midnight Thoughts",
+      "artist": "Deep Contemplation",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
+      "duration": "3:40",
+      "audioPreviewUrl": null,
+      "genre": "Alternative",
+      "year": "2024"
+    },
+    {
+      "id": 9,
+      "title": "Fading Memories",
+      "artist": "Nostalgic Dreams",
+      "coverImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&h=300&fit=crop&crop=center",
+      "duration": "4:10",
+      "audioPreviewUrl": null,
+      "genre": "Folk",
+      "year": "2023"
     }
   ]
 } 

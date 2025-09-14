@@ -55,17 +55,43 @@ function App() {
   };
 
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold text-center mb-4">Mood Music Player</h1>
-      <MoodSelector onSelectMood={handleSelectMood} />
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100">
+      {/* Header */}
+      <div className="bg-white shadow-sm border-b border-gray-200">
+        <div className="max-w-6xl mx-auto px-4 py-6">
+          <h1 className="text-3xl sm:text-4xl font-bold text-center bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
+            Harmoniq
+          </h1>
+          <p className="text-center text-gray-600 mt-2">Discover music that matches your mood</p>
+        </div>
+      </div>
 
-      {isLoading && <p className="text-center mt-4">Loading songs...</p>}
-      {error && <p className="text-center mt-4 text-red-500">Error: {error}</p>}
-      {!isLoading && !error && <Playlist songs={filteredSongs} onSelectSong={handleSelectSong} />}
+      {/* Main Content */}
+      <div className="max-w-6xl mx-auto px-4 py-8">
+        <MoodSelector onSelectMood={handleSelectMood} selectedMood={selectedMood} />
 
-      {/* Render NowPlaying component if a song is selected */}
+        {isLoading && (
+          <div className="flex justify-center items-center py-12">
+            <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+            <p className="ml-4 text-gray-600">Loading songs...</p>
+          </div>
+        )}
+        
+        {error && (
+          <div className="text-center py-12">
+            <div className="text-6xl mb-4">😞</div>
+            <p className="text-red-500 text-lg">Error: {error}</p>
+            <p className="text-gray-500 text-sm mt-2">Please try refreshing the page</p>
+          </div>
+        )}
+        
+        {!isLoading && !error && (
+          <Playlist songs={filteredSongs} onSelectSong={handleSelectSong} />
+        )}
+      </div>
+
+      {/* NowPlaying component */}
       <NowPlaying song={currentSong} />
-
     </div>
   );
 }
